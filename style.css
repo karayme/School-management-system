@@ -1,14 +1,4 @@
 
-/* =========================================
-   RAYS PREMIER SCHOOLS
-   STUDENT MANAGEMENT SYSTEM
-   Main Colours: Blue and Green
-========================================= */
-
-
-/* =========================================
-   1. CSS VARIABLES
-========================================= */
 
 :root {
     --primary-blue: #12345b;
@@ -32,9 +22,7 @@
 }
 
 
-/* =========================================
-   2. GENERAL STYLING
-========================================= */
+/* 2. GENERAL STYLING */
 
 * {
     margin: 0;
@@ -81,9 +69,7 @@ main {
 }
 
 
-/* =========================================
-   3. NAVIGATION BAR
-========================================= */
+/* 3. NAVIGATION BAR */
 
 .site-header {
     background-color: var(--white);
@@ -129,13 +115,11 @@ main {
     padding: 9px 13px;
     font-size: 20px;
     cursor: pointer;
-    border-radius: 6px;
+    border-radius: 6px  
 }
 
 
-/* =========================================
-   4. DASHBOARD STATISTICS
-========================================= */
+  /*  4. DASHBOARD STATISTICS */ 
 
 .dashboard {
     margin-bottom: 35px;
@@ -178,9 +162,7 @@ main {
 }
 
 
-/* =========================================
-   5. STUDENT REGISTRATION FORM
-========================================= */
+/* 5. STUDENT REGISTRATION FORM */
 
 .form {
     background-color: var(--white);
@@ -248,9 +230,8 @@ textarea::placeholder {
 }
 
 
-/* =========================================
-   6. BUTTONS
-========================================= */
+/* 
+   6. BUTTON */
 
 button {
     background-color: var(--primary-blue);
@@ -284,9 +265,7 @@ a:focus-visible {
 }
 
 
-/* =========================================
-   7. SUCCESS AND ERROR MESSAGES
-========================================= */
+/* 7. SUCCESS AND ERROR MESSAGES*/
 
 #errorMessage,
 .error-message {
@@ -313,9 +292,9 @@ a:focus-visible {
 }
 
 
-/* =========================================
-   8. SEARCH STUDENTS
-========================================= */
+
+  /* 8. SEARCH STUDENTS */
+
 
 .search-section {
     background-color: var(--white);
